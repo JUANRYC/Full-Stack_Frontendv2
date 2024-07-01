@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header style={{ backgroundColor: '#007bff', color: 'white', padding: '20px', textAlign: 'center' }}>
-        <h1>Gestion CRUD de Empleados</h1>
+        <h1>Gestion Empleados</h1>
       </header>
       <main>
         <EmpleadoList />
