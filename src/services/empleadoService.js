@@ -1,6 +1,6 @@
-import axios from 'axios';
+import axios from "axios";
 
-const API_URL = '"https://full-stack-backend-liart.vercel.app/api/empleados"';
+const API_URL = "https://full-stack-backend-liart.vercel.app/api/empleados";
 
 export const getEmpleados = () => axios.get(API_URL);
 export const getEmpleado = (id) => axios.get(`${API_URL}/${id}`);
