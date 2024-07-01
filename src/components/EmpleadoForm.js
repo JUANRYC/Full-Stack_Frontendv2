@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { createEmpleado, updateEmpleado, getEmpleado } from '../services/empleadoService';
 import './Empleados.css';
 
-const EmpleadoForm = ({ id, onSave }) => {
-
+const EmpleadoForm = ({ empleado, onDelete, onEdit }) => {
   const [empleado, setEmpleado] = useState({ nombre: '', apellido: '', email: '', puesto: '', salario: '' });
 
   useEffect(() => {
